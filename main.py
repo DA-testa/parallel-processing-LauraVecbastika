@@ -17,7 +17,7 @@ def parallel_processing(n, m, data):
         for i in range(n):
             #ja threads[n]ir tukšs es tam piešķiru vērtību, laiks plus data[i], lai zinātu, kad nākamais mainīgais jāievieto šajā vietā.
             if threads[i]==time:
-                output.append([i, time])
+                output.append([int(i), int(time)])
                 #print("threads[i]=",threads[i])
                 #print("data[0]=",data[0])
                 threads[i]=time+data[0]
@@ -52,8 +52,6 @@ def main():
         for j in i:
             print(j, end=" ")
         print()
-    
-
 
 if __name__ == "__main__":
     main()
