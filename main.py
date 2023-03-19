@@ -50,7 +50,7 @@ def main():
     # TODO: print out the results, each pair in it's own line
     for i in result:
         for j in i:
-            print(j, end=" ")
+            print(j)#, end=" ")
         print()
 
 if __name__ == "__main__":
