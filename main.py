@@ -51,7 +51,7 @@ def main():
     for i in result:
         for j in i:
             print(j, end=" ")
-         print()
+        print()
     
 
 
